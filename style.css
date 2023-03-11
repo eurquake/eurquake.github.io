@@ -1,0 +1,163 @@
+body {
+   background-color: #353534;
+}
+
+.n-block {
+   float: right;
+}
+
+.name-blue {
+   color: #743ad5;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   position: absolute;
+   margin: 13px -80px;
+   border-right: 2px solid rgb(135, 10, 218);
+}
+
+.name-pink {
+   color: #d53a9d;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   position: absolute;
+   margin: 14px -41px;
+}
+
+.nav {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #252524;
+   border-top: 10px solid;
+   border-width: 2px;
+   border-image-slice: 1;
+   border-image-source: linear-gradient(to right, #743ad5, #d53a9d);
+   border-bottom-left-radius: 7px;
+   border-bottom-right-radius: 7px;
+}
+
+.profile-picture {
+   width: 45px;
+   height: 45px;
+   float: right;
+   padding: 0 10px;
+   margin: 0;
+   border-radius: 50%;
+}
+
+.t-block {
+   float: left;
+}
+
+.t-block .text {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   transition: 0.5s all;
+}
+
+.t-block .text:hover {
+   background-color: #212120;
+}
+
+.card {
+   border-top: 10px solid;
+   border-width: 2px;
+   border-image-slice: 1;
+   border-image-source: linear-gradient(to right, #743ad5, #d53a9d);
+   background-color: #252524;
+   margin: 50px 0;
+   width: 315px;
+   height: 160px;
+   border-bottom-left-radius: 7px;
+   border-bottom-right-radius: 7px;
+}
+ 
+.lists-container {
+   display: flex;
+}
+ 
+.language-list-container {
+   display: inline-block;
+   padding: 0 10px;
+}
+ 
+.project-list-container {
+   display: inline-block;
+   padding: 0 10px;
+}
+ 
+.header {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: white;
+   padding: 0 10px;
+}
+ 
+.language-list {
+   list-style-type: none;
+   padding: 0 10px;
+}
+ 
+.project-list {
+   list-style-type: none;
+   padding: 0 10px;
+}
+ 
+.language {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: white;
+}
+
+.project {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: white;
+}
+
+.contacts-card {
+   border-top: 10px solid;
+   border-width: 2px;
+   border-image-slice: 1;
+   border-image-source: linear-gradient(to right, #743ad5, #d53a9d);
+   background-color: #252524;
+   width: 200px;
+   height: 125px;
+   border-bottom-left-radius: 7px;
+   border-bottom-right-radius: 7px;
+   position: absolute;
+   margin: -180px 325px;
+}
+
+.pfp-container {
+   background-color: #313130;
+   width: 190px;
+   border-top-left-radius: 25px;
+   border-bottom-left-radius: 25px;
+}
+
+.name {
+   color: white;
+   list-style-type: none;
+   font-family: Arial;
+   position: absolute;
+   padding: 0 60px;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+.tag {
+   color: rgb(146, 146, 146);
+   font-size: small;
+   list-style-type: none;
+   font-family: Arial, Helvetica, sans-serif;
+   position: absolute;
+   padding: 20px 60px;
+}
+
+.pfp {
+   border-radius: 50%;
+}
+ 
+
+
