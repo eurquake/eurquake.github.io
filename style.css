@@ -18,7 +18,7 @@ body {
    color: #d53a9d;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    position: absolute;
-   margin: 14px -41px;
+   margin: 12px -41px;
 }
 
 .nav {
@@ -113,27 +113,6 @@ body {
 .project {
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    color: white;
-}
-
-.contacts-card {
-   border-top: 10px solid;
-   border-width: 2px;
-   border-image-slice: 1;
-   border-image-source: linear-gradient(to right, #743ad5, #d53a9d);
-   background-color: #252524;
-   width: 200px;
-   height: 125px;
-   border-bottom-left-radius: 7px;
-   border-bottom-right-radius: 7px;
-   position: absolute;
-   margin: -180px 325px;
-}
-
-.pfp-container {
-   background-color: #313130;
-   width: 190px;
-   border-top-left-radius: 25px;
-   border-bottom-left-radius: 25px;
 }
 
 .name {
